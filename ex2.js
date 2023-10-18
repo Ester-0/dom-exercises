@@ -3,7 +3,7 @@ function boton1() {
 }
 
 function boton2() {
-  document.querySelector("#panel").style.backgroundColor = "rgb(255, 0, 0)";
+  document.querySelector("#panel").style.backgroundColor = "rgb(0, 0, 255)";
 }
 
 function asociamePorFavor() {
@@ -12,6 +12,8 @@ function asociamePorFavor() {
 }
 
 function calcularLetrasTitulo() {
+  document.querySelector().textContent = "h1.lenght";
+
   // 1. Accede a la propiedad textContent del nodo h1. Guarda esa información en una variable
   // 2. Usa el método adecuado para obtener el número de carácteres del string en textContent. Pon ese valor en el textContent del #panel
 }
